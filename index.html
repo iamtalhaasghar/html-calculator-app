@@ -1,0 +1,30 @@
+<head>
+    <title>HTML Calculator App</title> 
+    <link rel="stylesheet" href="./style.css">
+    <script src="./calculator.js"></script>
+</head>
+<body>
+    <textarea name="" id="screen" cols="10" rows="1" readonly></textarea>
+    <br>
+    <textarea name="" id="output" cols="10" readonly placeholder="0"></textarea>
+    <br>
+    <button onclick="numberButtonClicked(7);">7</button>
+    <button onclick="numberButtonClicked(8);">8</button>
+    <button onclick="numberButtonClicked(9);">9</button>
+    <button onclick="operationButtonClicked('/');">/</button>
+    <br>
+    <button onclick="numberButtonClicked(4);">4</button>
+    <button onclick="numberButtonClicked(5);">5</button>
+    <button onclick="numberButtonClicked(6);">6</button>
+    <button onclick="operationButtonClicked('*');"> X</button>
+    <br>
+    <button onclick="numberButtonClicked(1);">1</button>
+    <button onclick="numberButtonClicked(2);">2</button>
+    <button onclick="numberButtonClicked(3);">3</button>
+    <button onclick="operationButtonClicked('-');">-</button>
+    <br>
+    <button onclick="operationButtonClicked('.');">.</button>
+    <button onclick="numberButtonClicked(0);">0</button>
+    <button onclick="operationButtonClicked('=');">=</button>
+    <button onclick="operationButtonClicked('+');">+</button>
+</body>
